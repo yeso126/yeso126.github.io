@@ -3,15 +3,13 @@
 	background: #1E1E1E;
 	display: flex;
 	flex-direction: row ;
-	padding-top: 2em;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	height: 3.75em;
 	position:fixed;
-	left:0;
-	right:0;
-	margin: 0;
-	padding: 0;
+	left:0px;
+	right:0px;
+	top:-16px;
 
 }
 .mainMenu_items:first-child {
@@ -24,4 +22,24 @@
 	text-decoration: none;
 	color: #00DBFF;
 	line-height: 3.75em;
+}
+.header {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3.75em;
+	background-image: url('../pics/fondo1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: cover;
+	height: 350px;
+}
+.header img {
+	border:;
+}
+@media all and (max-width: 600px) {
+  .mainMenu {
+  	display: none;
+  }
 }
