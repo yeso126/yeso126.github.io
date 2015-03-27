@@ -1,4 +1,7 @@
-
+body{
+	font-family: gill sans mt;
+	letter-spacing: 2px;
+}
 .mainMenu {
 	background: #1E1E1E;
 	display: flex;
@@ -12,23 +15,21 @@
 	top:-16px;
 
 }
-.mainMenu_items:first-child {
-	margin: 0em 0em 0em 10em;
-}	
-.mainMenu_items:last-child {
-	margin: 0em 10em 0em 0em;
-}
+
 .mainMenu_items a {
 	text-decoration: none;
 	color: #00DBFF;
-	line-height: 3.75em;
+	font-size: 20px;
+	line-height: 3.75rem;
+	text-align: center;
+	margin: 0px, 2em;
 }
 .header {
 	display: flex;
-	flex-direction:column;
-	justify-content: space-around;
+	flex-direction:row;
+	justify-content: center;
 	align-items: center;
-	margin-top: 3.75em;
+	margin-top: 7.75em;
 	background-image: url('../pics/fondo1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -36,8 +37,32 @@
 	height: 350px;
 }
 .header img {
-	border:;
+	border: 5px solid white ;
+	border-radius: 10px 50px 5px 60px;
+	border-color:#white;
 }
+.header-link {
+	color:white;
+	font-size: 2.2em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 3px 3px 5px #000;
+
+}
+.header-name {
+	color:white;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 5px #000;
+}
+.tec {
+	align-self: auto;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px black;
+
+}
+
 @media all and (max-width: 600px) {
   .mainMenu {
   	display: none;
