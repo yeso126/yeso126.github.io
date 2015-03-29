@@ -16,6 +16,7 @@ body{
 	top:-1em;
 	list-style-type: none;
 	padding-left: 0em;
+	z-index: 20;
 }
 
 .mainMenu_items a {
@@ -43,6 +44,8 @@ body{
 	flex-direction:row;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
+	width: 100%;
 	margin-top: 5.75em;
 	background-image: url('../pics/fondo1.jpg');
 	background-repeat: no-repeat;
@@ -77,6 +80,8 @@ body{
 
 }
 .content1{
+	position: relative;
+	top:525px;
 	margin-top:5em;
 	background: #1E1E1E;
 	color: #00DBFF;
@@ -100,15 +105,21 @@ body{
 .footer_img {
 	display: flex;
 	height: 200px;
+	position: relative;
+	top:425px;
 	background: #1E1E1E;
 	flex-wrap:wrap;
 	justify-content:space-around;
 	align-items: center;
 	margin:0em;
 }
-
-
-
+.blank {
+	width: 100%;
+	position:relative;
+	top: 493px;
+	background: white;
+	height: 170px;
+}
 
 
 
