@@ -4,7 +4,7 @@ body{
 }
 
 .mainMenu {
-	background: #1E1E1E;
+	background: none repeat scroll 0% 0% rgb(7, 14, 14);
 	display: flex;
 	flex-direction: row ;
 	justify-content: space-around;
@@ -32,7 +32,6 @@ body{
 	font-size: 24px;
 	line-height: 0.75em;
 	text-align: center;
-	
 	font-weight: bold;
 	background-color:  #000;
 	border-width: 5em;
@@ -132,13 +131,15 @@ body{
   	justify-content: flex-start;
   	padding: 1em;
   	height: auto;
+  	top:0px;
   }
   .header {
-  	margin-top: auto;
+  	margin-top: 10px;
   	height: auto;
   	justify-content: flex-start;
   	flex-flow: flex-direction flex-wrap;
-  	top:200px;
+  	top:0px;
+  	position: relative;
   }
   .mainMenu{
   	flex-direction:column;
@@ -152,11 +153,15 @@ body{
   	display: none;
   }
    .footer_img {
+   	top: 0px;
    	height:auto;
    }
   .footer_img img{
 
   	height: 100px;
   	width: 100px;
+  }
+  .blank {
+  	display: none;
   }
 }
