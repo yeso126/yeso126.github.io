@@ -25,6 +25,7 @@ body{
 	font-size: 20px;
 	line-height: 3.75rem;
 	margin: 0px, 2em;
+	text-align: center;
 }
 .mainMenu_items h2 {
 	text-decoration: none;
@@ -126,7 +127,7 @@ body{
 
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
   .content1 {
   	justify-content: flex-start;
   	padding: 1em;
