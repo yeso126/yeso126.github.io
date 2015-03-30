@@ -115,8 +115,13 @@ body{
 	height: 170px;
 }
 
-
-
+.content2 {
+	display: float;
+	position:relative;
+	top: 700px;
+	background: #1E1E1E;
+	
+}
 
 
 
