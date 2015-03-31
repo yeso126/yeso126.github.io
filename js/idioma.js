@@ -8,5 +8,5 @@ if(iniciales=="es")
 }
 else
 {
-     location.replace("http://yeso126.github.io/index.html") //redigirimos a nuestro sitio en inglés
+     location.replace("http://yeso126.github.io/index_en.html") //redigirimos a nuestro sitio en inglés
 }
