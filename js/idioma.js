@@ -4,8 +4,7 @@ var ancho=navigator.appVersion.length;
 
 if(iniciales=="es")
 {
-	alert("español");
-     location.replace("http://yeso126.github.io/indexes.html"); //redirigimos a nuestro sitio en español
+     location.replace("http://yeso126.github.io/index_es.html"); //redirigimos a nuestro sitio en español
 }
 else
 {
