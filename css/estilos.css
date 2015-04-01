@@ -1,8 +1,14 @@
 body{
 	font-family: gill sans mt;
 	letter-spacing: 1px;
+	font-size: 16px;
 }
-
+ol, ul{
+	margin-top: 1em;
+}
+img {
+	vertical-align: baseline;
+}
 .mainMenu {
 	background: none repeat scroll 0% 0% rgb(7, 14, 14);
 	display:flex;
@@ -37,10 +43,9 @@ body{
 	display: flex;
 	flex-direction:row;
 	justify-content: center;
-	align-items: center;
 	position: fixed;
 	width: 100%;
-	margin-top: 5.75em;
+	margin-top: 7em;
 	background-image: url('../pics/fondo1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -75,7 +80,7 @@ body{
 }
 .content1{
 	position: relative;
-	top:525px;
+	top:35em;
 	margin-top:5em;
 	background: #1E1E1E;
 	color: #00DBFF;
@@ -86,15 +91,12 @@ body{
 	flex-wrap: wrap;
 	height: auto;
 	justify-content: space-around;
-	align-items: stretch;
+	
 
 }
-.content1_der{
+.content1_item{
 	width: 300px;
 
-}
-.content1_izq {
-	width: 300px;
 }
 .footer_img {
 	display: flex;
@@ -122,8 +124,11 @@ body{
 	background: #1E1E1E;
 	
 }
-
-
+.img_article {
+	width: 546px;
+	height: 291px;
+	margin:2em;
+}
 
 
 @media all and (max-width: 500px) {
@@ -138,7 +143,6 @@ body{
   	height: auto;
   	justify-content: flex-start;
   	flex-flow: flex-direction flex-wrap;
-  	top:0px;
   	position: relative;
   }
   .mainMenu{
@@ -164,4 +168,9 @@ body{
   .blank {
   	display: none;
   }
+  .img_article {
+	width: 200px;
+	height: auto;
+}
+
 }
