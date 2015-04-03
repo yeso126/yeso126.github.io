@@ -171,8 +171,7 @@ img {
   	display: none;
   }
   .img_article {
-  	height: 10em;
-	width: 15em;
+  	display: none;
 }
 
 }
