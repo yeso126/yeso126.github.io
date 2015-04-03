@@ -127,23 +127,27 @@ img {
 	
 }
 .img_article {
-	width: 546px;
-	height: 291px;
+	width: 446px;
+	height: 231px;
 	margin:2em;
 }
 
 
 @media all and (max-width: 500px) {
   .content1 {
-  	justify-content: flex-start;
+  	justify-content: space-around;
   	padding: 1em;
   	height: auto;
   	top:0px;
   }
+ .img_article {
+ 	width: 200px;
+ 	height: 100px;
+ }
   .header {
   	margin-top: 10px;
   	height: auto;
-  	justify-content: flex-start;
+  	justify-content: space-around;
   	flex-flow: flex-direction flex-wrap;
   	position: relative;
   }
