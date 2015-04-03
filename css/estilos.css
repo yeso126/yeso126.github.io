@@ -171,12 +171,8 @@ img {
   	display: none;
   }
   .img_article {
-	width: 200px;
-	height: 130px;
-}
-  .img_article img{
-	width: 200px;
-	height: 130px;
+  	height: 10em;
+	width: 15em;
 }
 
 }
