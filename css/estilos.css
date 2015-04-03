@@ -140,10 +140,6 @@ img {
   	height: auto;
   	top:0px;
   }
- .img_article {
- 	width: 200px;
- 	height: 100px;
- }
   .header {
   	margin-top: 10px;
   	height: auto;
@@ -176,7 +172,7 @@ img {
   }
   .img_article {
 	width: 200px;
-	height: auto;
+	height: 100px;
 }
 
 }
