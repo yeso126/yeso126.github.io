@@ -1,4 +1,4 @@
-@import url("style.css");
+
 
 body{
 	font-family: gill sans mt;
@@ -48,13 +48,13 @@ img {
 	position: fixed;
 	width: 100%;
 	margin-top: 7em;
-	background-image: url('../pics/fondo1.jpg');
+	background-image: url('../pics/fondo2.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 	background-size: cover;
 	height: 350px;
 }
-.header img {
+.avatar img {
 	border: 5px solid white ;
 	border-radius: 10px 50px 5px 60px;
 	border-color:#white;
