@@ -172,7 +172,11 @@ img {
   }
   .img_article {
 	width: 200px;
-	height: 100px;
+	height: 130px;
+}
+  .img_article img{
+	width: 200px;
+	height: 130px;
 }
 
 }
