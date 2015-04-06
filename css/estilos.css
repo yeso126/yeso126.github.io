@@ -91,8 +91,8 @@ img {
 	align-self:auto;
 	border-radius: 2em; 
 	background: rgba(3,5,3,0.6);
-	padding: 1em 2em;
-	margin: 0em 5em;
+	padding: 1em 1em;
+	margin: 0em 4em;
 }
 .tec {
 	align-self: auto;
@@ -162,7 +162,13 @@ img {
 	height: 231px;
 	margin:2em;
 }
-
+.titulo{
+	text-align: center;
+	font-size: 3em;
+	color:white;
+	border-radius: 2em;
+	background: rgba(3,5,3,0.6);
+}
 
 @media all and (max-width: 500px) {
   .content1 {
