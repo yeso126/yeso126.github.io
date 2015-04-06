@@ -65,6 +65,7 @@ img {
 	background-size: cover;
 	height: 350px;
 	line-height: 2em;
+	/*align-items: flex-start;*/
 }
 .avatar img {
 	border: 5px solid white ;
@@ -77,12 +78,21 @@ img {
 	font-weight: bold;
 	color: white;
 	text-shadow: 3px 3px 5px #000;
+	text-decoration: none;
 
 }
 .header-name {
 	color:white;
 	font-size: 1.5em;
 	text-shadow: 3px 3px 5px #000;
+	margin: 0em;
+}
+.avatar{
+	align-self:auto;
+	border-radius: 2em; 
+	background: rgba(3,5,3,0.6);
+	padding: 1em 2em;
+	margin: 0em 5em;
 }
 .tec {
 	align-self: auto;
@@ -90,7 +100,8 @@ img {
 	font-size: 1.8em;
 	font-weight: bold;
 	text-shadow: 3px 3px 5px black;
-
+	border-radius: 2em;
+	background: rgba(3,5,3,0.6);
 }
 .content1{
 	position: relative;
@@ -105,7 +116,6 @@ img {
 	flex-wrap: wrap;
 	height: auto;
 	justify-content: space-around;
-	
 
 }
 .content1_item{
@@ -122,6 +132,10 @@ img {
 	justify-content:space-around;
 	align-items: center;
 	margin:0em;
+}
+.footer_img img{
+	height: 125px;
+	width: auto;
 }
 .footer_img a:hover{
 	border: 2px solid #001EFF;
