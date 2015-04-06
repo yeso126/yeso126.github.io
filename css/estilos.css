@@ -2,11 +2,17 @@
 
 body{
 	font-family: gill sans mt;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
+	line-height: 1.3em;
 	font-size: 16px;
 }
 ol, ul img{
 	margin-top: .3em;
+	transition: 1s;
+}
+ol, ul img:hover{
+	margin-top: 1em;
+	transition: .3s;
 }
 img {
 	vertical-align: baseline;
@@ -38,6 +44,11 @@ img {
 	padding: 0em;
 	margin: 0em;
 }	
+.mainMenu_items a:hover{
+	border: 2px solid #001EFF;
+	border-radius: 20%;
+	transition: .4s;
+}
 .mainMenu_items img {
 	padding-top: 0.25em;
 } 
@@ -53,6 +64,7 @@ img {
 	background-position: center;	
 	background-size: cover;
 	height: 350px;
+	line-height: 2em;
 }
 .avatar img {
 	border: 5px solid white ;
@@ -110,6 +122,11 @@ img {
 	justify-content:space-around;
 	align-items: center;
 	margin:0em;
+}
+.footer_img a:hover{
+	border: 2px solid #001EFF;
+	border-radius: 20%;
+	transition: .4s;
 }
 .blank {
 	width: 100%;
