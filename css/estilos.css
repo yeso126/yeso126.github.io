@@ -45,9 +45,8 @@ img {
 	margin: 0em;
 }	
 .mainMenu_items a:hover{
-	border: 2px solid #001EFF;
-	border-radius: 20%;
-	transition: .4s;
+	border-bottom: 5px dashed blue;
+	transition: .5s;
 }
 .mainMenu_items img {
 	padding-top: 0.25em;
@@ -138,9 +137,8 @@ img {
 	width: auto;
 }
 .footer_img a:hover{
-	border: 2px solid #001EFF;
-	border-radius: 20%;
-	transition: .4s;
+	border-bottom: 5px dashed blue;
+	transition: .5s;
 }
 .blank {
 	width: 100%;
