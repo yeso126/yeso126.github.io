@@ -124,11 +124,14 @@ img {
 }
 .content1_img{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.p-absolute{
+.p-1{
 	top:6em;
+}
+.p-2 {
+	top: 9em;
 }
 .footer_img {
 	display: flex;
