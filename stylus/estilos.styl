@@ -1,0 +1,216 @@
+body
+  font-family gill sans mt
+  letter-spacing 2px
+  line-height 1.3em
+  font-size 16px
+
+ol, ul img
+  margin-top .3em
+  transition 1s
+
+ol, ul img:hover
+  margin-top 1em
+  transition .3s
+
+img
+  vertical-align baseline
+
+.mainMenu
+  background none repeat scroll 0% 0% rgb(7, 14, 14)
+  display flex
+  flex-direction row
+  justify-content space-around
+  flex-wrap wrap
+  height 3.75em
+  position fixed
+  left 0px
+  right 0px
+  top -1em
+  list-style-type none
+  padding-left 0em
+  z-index 20
+  box-border 2px 4px 3px rgba(7,7,7,0.5)
+
+.mainMenu_items
+  display flex
+  a
+    text-decoration none
+    color #00DBFF
+    font-size 20px
+    line-height 3.75rem
+    text-align center
+    padding 0em
+    margin 0em
+    &:hover
+      border-bottom 5px dashed blue
+      transition .5s
+  img
+    padding-top 0.25em
+
+.header
+  display flex
+  flex-direction row
+  justify-content center
+  position fixed
+  width 100%
+  margin-top 7em
+  background-image url('../pics/fondo2.jpg')
+  background-repeat no-repeat
+  background-position center
+  background-size cover
+  height 350px
+  line-height 2em
+
+.avatar
+  align-self auto
+  border-radius 2em
+  background rgba(3,5,3,0.6)
+  padding 1em 1em
+  margin 0em 4em
+  img
+    border 5px solid white
+    border-radius 10px 50px 5px 60px
+    border-color white
+
+.header-link
+  color white
+  font-size 2.2em
+  font-weight bold
+  color white
+  text-shadow 3px 3px 5px #000
+  text-decoration none
+
+.header-name
+  color white
+  font-size 1.5em
+  text-shadow 3px 3px 5px #000
+  margin 0em
+
+.tec
+  align-self auto
+  color white
+  font-size 1.8em
+  font-weight bold
+  text-shadow 3px 3px 5px black
+  border-radius 2em
+  background rgba(3,5,3,0.6)
+
+.content1
+  position relative
+  top 35em
+  margin-top 5em
+  background #1E1E1E
+  color #00DBFF
+  margin 2em 0em
+  padding 4em 9em
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  height auto
+  justify-content space-between
+
+.content1_item
+  width 300px
+  padding 0em
+  margin 0em
+
+.content1_img
+  display flex
+  justify-content space-between
+  flex-wrap wrap
+
+.p-1
+  top 6em
+
+.p-2
+  top 9em
+
+.footer_img
+  display flex
+  height 200px
+  position relative
+  top 425px
+  background #1E1E1E
+  flex-wrap wrap
+  justify-content space-around
+  align-items center
+  margin 0em
+  img
+    height 125px
+    width auto
+  a
+    &:hover
+      border-bottom 5px dashed blue
+      transition .5s
+
+.blank
+  width 100%
+  position relative
+  top 493px
+  background white
+  height 170px
+
+.content2
+  display float
+  position relative
+  top 700px
+  background #1E1E1E
+
+.img_article
+  width 128px
+  height 128px
+  margin 2em
+
+.titulo
+  text-align center
+  vertical-align middle
+  font-size 3em
+  color white
+  border-radius 2em
+  background rgba(3,5,3,0.6)
+  
+.pf-design
+  top 12em
+.spacer 
+  margin 0em 1em
+
+@media screen and (max-width: 660px)
+
+  .content1
+    justify-content space-around
+    padding 1em
+    height auto
+    top 0px
+
+  .header
+    margin-top 10px
+    height auto
+    justify-content space-around
+    flex-flow flex-direction flex-wrap
+    position relative
+
+  .mainMenu
+    flex-direction column
+    align-items center
+    height auto
+    margin 0em
+    position relative
+    left 0px
+
+  .tec
+    display none
+
+  .footer_img
+    top 0px
+    height auto
+    img
+      height 100px
+      width 100px
+
+  .blank
+    display none
+
+  .img_article
+    height 64px
+    width 64px
+    margin 1em
