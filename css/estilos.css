@@ -31,7 +31,7 @@ img {
   list-style-type: none;
   padding-left: 0em;
   z-index: 20;
-  box-border: 2px 4px 3px rgba(7,7,7,0.5);
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .mainMenu_items {
   display: flex;
@@ -72,6 +72,7 @@ img {
   background: rgba(3,5,3,0.6);
   padding: 1em 1em;
   margin: 0em 4em;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .avatar img {
   border: 5px solid #fff;
@@ -100,6 +101,7 @@ img {
   text-shadow: 3px 3px 5px #000;
   border-radius: 2em;
   background: rgba(3,5,3,0.6);
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .content1 {
   position: relative;
@@ -119,11 +121,13 @@ img {
   width: 300px;
   padding: 0em;
   margin: 0em;
+  filter: drop-shadow(4px 3px 2px #000);
 }
 .content1_img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .p-1 {
   top: 6em;
@@ -145,10 +149,12 @@ img {
 .footer_img img {
   height: 125px;
   width: auto;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .footer_img a:hover {
   border-bottom: 5px dashed #00f;
   transition: 0.5s;
+  filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
 }
 .blank {
   width: 100%;
@@ -167,6 +173,7 @@ img {
   width: 128px;
   height: 128px;
   margin: 2em;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
 .titulo {
   text-align: center;
@@ -225,5 +232,8 @@ img {
     height: 64px;
     width: 64px;
     margin: 1em;
+  }
+  .construccion img {
+    width: 100%;
   }
 }
