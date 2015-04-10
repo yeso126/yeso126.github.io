@@ -182,6 +182,9 @@ img {
 .spacer {
   margin: 0em 1em;
 }
+.space-b {
+  justify-content: space-around;
+}
 @media screen and (max-width: 660px) {
   .content1 {
     justify-content: space-around;
