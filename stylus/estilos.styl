@@ -4,16 +4,12 @@ body
   line-height 1.3em
   font-size 16px
 
-ol, ul img
-  margin-top .3em
-  transition 1s
-
-ol, ul img:hover
-  margin-top 1em
-  transition .3s
-
-img
-  vertical-align baseline
+filtro(n)
+  -webkit-filter n
+  -moz-filter n
+  -o-filter n
+  -ms-filter n
+  filter n
 
 .mainMenu
   background none repeat scroll 0% 0% rgb(7, 14, 14)
@@ -29,7 +25,7 @@ img
   list-style-type none
   padding-left 0em
   z-index 20
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+  filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
 .mainMenu_items
   display flex
@@ -68,7 +64,8 @@ img
   background rgba(3,5,3,0.6)
   padding 1em 1em
   margin 0em 4em
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+  width 18em
+  filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
   img
     border 5px solid white
     border-radius 10px 50px 5px 60px
@@ -97,7 +94,9 @@ img
   text-shadow 3px 3px 5px black
   border-radius 2em
   background rgba(3,5,3,0.6)
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+  width 11em
+  margin-left 2.3em
+  filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
 .content1
   position relative
@@ -118,13 +117,13 @@ img
   width 300px
   padding 0em
   margin 0em
-  filter: drop-shadow(4px 3px 2px rgba(0, 0, 0, 1))
+  filtro(drop-shadow(4px 3px 2px rgba(0, 0, 0, 1)))
 
 .content1_img
   display flex
   justify-content space-between
   flex-wrap wrap
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+  filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
 .p-1
   top 6em
@@ -145,12 +144,12 @@ img
   img
     height 125px
     width auto
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+    filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
   a
     &:hover
       border-bottom 5px dashed blue
       transition .5s
-      filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+      filtro(drop-shadow(16px 16px 10px rgba(0,0,0,0.9)))
 
 .blank
   width 100%
@@ -169,7 +168,12 @@ img
   width 128px
   height 128px
   margin 2em
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9))
+  filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
+  &:hover 
+    transition .5s
+    height 6em
+    filtro(drop-shadow(16px 16px 10px rgba(0,0,0,0.9)))
+    
   
 .titulo
   text-align center
@@ -202,12 +206,15 @@ img
     position relative
 
   .mainMenu
-    flex-direction column
+    flex-direction row
     align-items center
     height auto
     margin 0em
     position relative
     left 0px
+    
+  .content1_img
+    overflow hidden
 
   .tec
     display none
@@ -226,6 +233,7 @@ img
     height 64px
     width 64px
     margin 1em
+    
   .construccion img 
         width: 100%
       
