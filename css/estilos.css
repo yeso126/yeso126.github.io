@@ -131,7 +131,7 @@ body {
 }
 .content1_img {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   -webkit-filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
   -moz-filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
@@ -246,7 +246,12 @@ body {
     left: 0px;
   }
   .content1_img {
-    overflow: hidden;
+    justify-content: center;
+  }
+  .content1_img img {
+    width: 250px;
+    height: auto;
+    padding: 2em 0em;
   }
   .tec {
     display: none;

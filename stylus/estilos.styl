@@ -121,7 +121,7 @@ filtro(n)
 
 .content1_img
   display flex
-  justify-content space-between
+  justify-content flex-start
   flex-wrap wrap
   filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
@@ -212,9 +212,14 @@ filtro(n)
     margin 0em
     position relative
     left 0px
-    
+  
   .content1_img
-    overflow hidden
+    justify-content center
+    
+  .content1_img img
+    width 250px
+    height auto
+    padding 2em 0em
 
   .tec
     display none
@@ -233,6 +238,7 @@ filtro(n)
     height 64px
     width 64px
     margin 1em
+    
     
   .construccion img 
         width: 100%
