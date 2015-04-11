@@ -272,6 +272,10 @@ body {
     width: 64px;
     margin: 1em;
   }
+  .img_article:hover {
+    transition: 0.5s;
+    height: 3em;
+  }
   .construccion img {
     width: 100%;
   }
