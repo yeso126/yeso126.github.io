@@ -30,7 +30,7 @@ body {
 .mainMenu_items a {
   text-decoration: none;
   color: #00dbff;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 3.75rem;
   text-align: center;
   padding: 0em;
@@ -168,9 +168,21 @@ body {
   -ms-filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
   filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.9));
 }
+.footer_img p {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #00dbff;
+  font-size: 20px;
+  text-align: center;
+  padding: 0em;
+  margin: 0em;
+}
+.footer_img a {
+  text-decoration: none;
+}
 .footer_img a:hover {
-  border-bottom: 5px dashed #00f;
   transition: 0.5s;
+  padding-bottom: 1em;
   -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
   -moz-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
   -o-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
@@ -230,7 +242,7 @@ body {
   justify-content: flex-start;
 }
 .padding-left {
-  padding-left: 10%;
+  padding-left: 23%;
 }
 @media screen and (max-width: 720px) {
   .content1 {
