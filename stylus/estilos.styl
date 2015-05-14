@@ -4,6 +4,9 @@ body
   line-height 1.3em
   font-size 16px
 
+img 
+  width auto 
+  
 filtro(n)
   -webkit-filter n
   -moz-filter n
@@ -23,25 +26,28 @@ filtro(n)
   right 0px
   top -1em
   list-style-type none
-  padding-left 0em
+  padding-left 4em
   z-index 20
   filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
 .mainMenu_items
-  display flex
+  width 181px
+  height auto 
   a
     text-decoration none
     color #00DBFF
-    font-size 24px
+    font-size 1.3rem 
     line-height 3.75rem
-    text-align center
     padding 0em
     margin 0em
+    
     &:hover
       border-bottom 5px dashed blue
       transition .5s
   img
     padding-top 0.25em
+    height 50px 
+    
 
 .header
   display flex
@@ -95,7 +101,7 @@ filtro(n)
   border-radius 2em
   background rgba(3,5,3,0.6)
   width 11em
-  margin-left 2.3em
+  margin-left 2em
   filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
 
 .content1
@@ -145,8 +151,8 @@ filtro(n)
   align-items center
   margin 0em
   img
-    height 125px
-    width auto
+    height auto 
+    width 125px
     filtro(drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9)))
   p 
     text-decoration none
@@ -205,6 +211,8 @@ filtro(n)
   justify-content flex-start
 .padding-left
   padding-left 23%
+  
+
 @media screen and (max-width: 720px)
 
   .content1
@@ -221,14 +229,15 @@ filtro(n)
     position relative
 
   .mainMenu
-    flex-direction row
+    flex-direction column
     align-items center
     height auto
     margin 0em
-    padding-top 1em
+    padding 2em 0em 0em 0em
     position relative
     left 0px
-  
+    &_items 
+      text-align center 
   .content1_img
     justify-content center
     
@@ -244,8 +253,8 @@ filtro(n)
     top 0px
     height auto
     img
-      height 100px
-      width 100px
+      height auto 
+      width 125px
 
   .blank
     display none
